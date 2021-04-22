@@ -1,0 +1,94 @@
+/*
+	Student name:   Duy Nguyen
+	Date:	        12/06/2020
+	File:	        styles.css
+    Purpose:        WEB-115 Final Project.
+*/
+
+body {
+    font-size: 12pt;
+    font-family: verdana;
+    background: #FFFFFF;
+}
+
+#container {
+    width: 60%;
+    margin: 10px auto;
+    padding: 5px 20px;
+}
+
+header {
+    border: 1px solid #000000;
+    background-image: linear-gradient(#a9a9a9, #ffffff, #a9a9a9);
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 5px 5px;
+}
+
+section {
+    border: 1px solid #000000;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 5px 5px;
+}
+
+article {
+    margin: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 14pt;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 10pt;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 12pt;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+label {
+    display: block;
+    font-size: 10pt;
+    text-align: left;
+    margin: 5px 5px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* Style inputs */
+input[type=text], input[type=date], select, textarea {
+    width: auto;
+    padding: 5px 10px;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+br {
+    clear: both;
+}
+
+.formBlock {
+    display: block;
+    float: left;
+    margin: 0px 5px 0px 5px;
+}
+
+.clearfix:after { 
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
